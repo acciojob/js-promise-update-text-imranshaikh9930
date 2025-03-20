@@ -10,5 +10,5 @@ function printHello(){
 	})
 }
 
-printHello.then((res)=> output.innerText = res)
+printHello.then((res)=> {output.textContent = res})
 	.catch((err)=> console.log(err))
